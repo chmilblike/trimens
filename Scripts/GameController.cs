@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
     static public List<Player> _Players;
-    static public int _Trimen;
-    static public int _CurrentPlayer;
+    static int _Trimen;
+    static int _CurrentPlayer;
     static public bool _LookingForTrimen;
     static public List<string> _rulesToApply = new List<string>();
     static public bool _FirstGame = false;

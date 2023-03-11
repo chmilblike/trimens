@@ -115,11 +115,7 @@ public class DiceRoll : MonoBehaviour
 
             // A mettre autre part sans le check 
             if (GameObject.Find("TrimensSelectionCanvas") != null)
-                TrimenSelection.ClearTrimensMessage();
-
-
-            Dice1Value = 3;
-            Dice2Value = 6;
+                TrimenSelection.ClearTrimensMessage();            
         }        
     }
 
